@@ -194,7 +194,7 @@ public class Main {
         // affichage de la regle graduée
 
         System.out.print("|");
-        for (int i = 1; i < longueur; i++) {
+        for (int i = 1; i <= longueur; i++) {
             if (i % 10 == 0) {
                 System.out.print("|");
             } else {
