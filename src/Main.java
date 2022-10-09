@@ -288,7 +288,6 @@ public class Main {
             tableau[tableau.length - i - 1] = stock; // on échange la valeur correspondante avec la première valeur
         }
         System.out.println("Le tableau inversé est : " + Arrays.toString(tableau));
-        System.out.println("hello world");
     }
 
 }
